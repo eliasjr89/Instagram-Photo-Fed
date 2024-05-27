@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Amor+Luz&family=Lujoso+Romano&family=Major+Mono+Display&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap');
+
+.sedan-sc-regular {
+	font-family: "Sedan SC", serif;
+}
+
+#hero {
+	background-color: white;
+	padding: 1px;
+}
+
+.hero_title{
+	text-decoration: overline underline;
+	text-shadow: 10px 10px 20px rgb(0, 0, 0);
+	position: relative;
+	transition: box-shadow 0.9s ease, transform 0.5s ease;
+    transform: scale(1);
+	cursor: pointer;
+}
+
+.hero_title:hover {
+	box-shadow: 0 0 25px rgb(255, 255, 255);
+	transform: scale(1.1) translateZ(20px);
+}
+
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+	height: 100%;
+	margin: 0;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section {
+    width: 300px;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px; 
+	overflow: hidden; 
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 40px;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+
+.section:hover {
+	box-shadow: 0 0 25px rgb(255, 255, 255);
+	transform: scale(1.1) translateZ(20px);
+}
+
+.section img {
+	max-width: 100%;
+	margin-bottom: 0;
+}
+
+.section_title {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-between;
+}
+
+.subtitle {
+	margin: 5px;
+	font-size: 18px;
+}
+
+.date {
+	color: rgb(172, 172, 172);
+	font-size: 18px;
+	margin: 5px;
+}
+
+footer {
+	background-color: white;
+	text-align: start;
+	font-size: 16px;
+}
