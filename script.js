@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const char = titleText[i];
         const span = document.createElement('span');
         span.innerText = char;
-        span.classList.add(colors[i % colors.length]); // Asigna una clase de color
+        span.classList.add(colors[i % colors.length]);
         title.appendChild(span);
     }
 });
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    window.addEventListener('scroll', appearOnScroll);
-    appearOnScroll();
+window.addEventListener('scroll', appearOnScroll);
+appearOnScroll();
 });
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
